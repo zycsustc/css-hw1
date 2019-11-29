@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .tri-white { 
+        width: 0; 
+        height: 0; 
+        border: 20px solid; 
+        border-color: white transparent transparent transparent; 
+        float: right;
+        margin-right: 20px;
+        margin-top: 20px;
+        }
+    .tri-red { 
+        width: 0; 
+        height: 0; 
+        border: 20px solid; 
+        border-color: transparent transparent #F55040 transparent; 
+        float:right;
+        margin-right: 198px;
+        margin-top: -15px;
+    }
+    .title-span {
+        color: white;
+        font-size: 40px;
+        margin-left: 50px;
+    }
+    .title-box {
+        width: 500px;
+        height: 60px;
+        background-color: #F55040;
+        border-radius: 10px 10px;
+    }
+    .list-box {
+        width: 500px;
+        height: 60px;
+    }
+    .unorder {
+        list-style-type: none;
+    }
+    .list1 {
+        margin-left: -40px;
+        background: #F55040 url(test2.png) no-repeat 10px -72px;
+        border-radius: 10px 10px 0 0;
+    }
+    .list2 {
+        margin-left: -40px;
+        background: #F55040 url(test2.png) no-repeat -83px 0px;
+    }
+    .list3 {
+        margin-left: -40px;
+        background-color: #F55040;
+        border-radius: 0 0 10px 10px;
+    }
+    .list-span {
+        font-size: 40px;
+        margin-left: 80px;
+        color: white;
+    }
+    .icon3 {
+        width: 50px;
+        height: 50px;
+        margin-top: 45px;
+        margin-left: 10px;
+        background: url(test2.png);
+    }
+    </style>
+</head>
+<body>
+<div>
+    <div class="title-box">
+      <span class="title-span">Saint Petersburg</span>
+      <div class="tri-white"></div>
+    </div>
+
+    <div class="tri-red"></div>
+
+    <div class="list-box">
+      <ol class="unorder">
+        <li class="list1"><span class="list-span">Like</span></li>
+        <li class="list2"><span class="list-span">Favorites</span></li>
+        <li class="list3"><span class="list-span">Discuss</span></li>
+      </ol>
+    </div>
+    <div class="icon3"></div>
+</div>    
+</body>
+</html>
